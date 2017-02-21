@@ -1,8 +1,7 @@
-#TinyCircuits Bluetooth Low Energy (BLE) TinyShield, Model ASD2116
+#TinyCircuits Bluetooth Low Energy (BLE) TinyShield, ASD2116
 #ASD2116 Rev1
 
-These are the design files for the TinyCircuits ASD2116 Rev 1 PCB. This is a TinyShield board that has a BlueNRG-MS module, 
-local power supply and level shifters to connect between the TinyDuino and BLE mod
+These are the design files for the TinyCircuits ASD2116 Rev 1 PCB. This is a TinyShield board that has a BlueNRG-MS module, local power supply and level shifters to connect between the TinyDuino and BLE mod
 
 Format is in Cadsoft Eagle format - Eagle version 6.3 was used for the original design.
 
