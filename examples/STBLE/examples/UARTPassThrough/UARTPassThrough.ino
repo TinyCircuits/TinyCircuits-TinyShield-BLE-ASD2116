@@ -1,18 +1,20 @@
-//-------------------------------------------------------------------------------
-//  TinyCircuits ST BLE TinyShield UART Example Sketch
-//  Last Updated 2 March 2016
-//
-//  This demo sets up the BlueNRG-MS chipset of the ST BLE module for compatiblity 
-//  with Nordic's virtual UART connection, and can pass data between the Arduino
-//  serial monitor and Nordic nRF UART V2.0 app or another compatible BLE
-//  terminal. This example is written specifically to be fairly code compatible
-//  with the Nordic NRF8001 example, with a replacement UART.ino file with
-//  'aci_loop' and 'BLEsetup' functions to allow easy replacement. 
-//
-//  Written by Ben Rose, TinyCircuits http://tinycircuits.com
-//
-//-------------------------------------------------------------------------------
+/*
+  TinyCircuits ST BLE TinyShield UART Example Sketch
 
+  This demo sets up the BlueNRG-MS chipset of the ST BLE module for compatiblity 
+  with Nordic's virtual UART connection, and can pass data between the Arduino
+  serial monitor and Nordic nRF UART V2.0 app or another compatible BLE
+  terminal. This example is written specifically to be fairly code compatible
+  with the Nordic NRF8001 example, with a replacement UART.ino file with
+  'aci_loop' and 'BLEsetup' functions to allow easy replacement.
+
+  Written 02 March 2016
+  By Ben Rose
+  Modified 07 January 2019
+  By Hunter Hykes
+
+  https://TinyCircuits.com
+*/
 
 #include <SPI.h>
 #include <STBLE.h>
